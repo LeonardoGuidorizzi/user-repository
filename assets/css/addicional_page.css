@@ -27,9 +27,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+    padding: 50px;  
   
   }
+
+  .logo_container{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0.05;
+}
   
   .header_button {
     background: none;
@@ -144,8 +150,6 @@
     padding-top: 30px;
   }
 
-  @media () {
-    
-  }
+
 
   
