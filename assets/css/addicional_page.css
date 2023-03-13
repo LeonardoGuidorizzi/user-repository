@@ -151,5 +151,71 @@
   }
 
 
-
+  @media (max-width:1024px) {
+    body{
+      width: 100%;
+  } 
+    input{
+      width: 40vw;  
+  }
+  }
+  
+  @media (max-width:375px) {
+    header{
+      padding: 20px;
+    }
+    .second_name{
+      font-size: medium;
+    }
+    .specify{
+      font-size: medium;
+    }
+    .picture{
+      width: 15rem;
+    }
+    .input{
+      height: 1rem;
+      width: 70vw;
+    }
+  }
+  
+  @media(max-width:667px){
+    main{
+      height: 100%;
+    }
+  
+    header{
+     margin-top: 10px;
+     padding: 0;
+    }
+    .logo_container{
+      margin-left: 10px;
+    }
+  
+    .button{
+      margin-left: 10px;
+  
+     }
+    .picture{
+      height: 7rem;
+      width: 10rem;
+    }
+  
+    .input_picture_container{
+        margin-bottom: 0;
+    }
+    .input{
+      height: 1vh;
+      width: 70vw;
+    }
+  
+  }
+  
+  @media(max-width:896px){
+    .input{
+      height: 1vh;
+      
+    }
+  }
+  
   
